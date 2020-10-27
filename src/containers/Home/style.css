@@ -1,0 +1,18 @@
+@media only screen and (min-width: 768px) {
+  .container_bottom_border{
+    display: flex !important;
+    justify-content: space-between !important;
+
+   }
+   .container_home{
+    width: 80% !important;
+  }
+
+}
+
+.container_bottom_border{
+ display: block;
+}
+.container_home{
+  width: 100%;
+}

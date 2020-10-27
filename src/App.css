@@ -1,0 +1,19 @@
+@media only screen and (min-width: 768px) {
+  .item-category{
+     width: 80% !important;
+     font-size: 15px !important
+  }
+  .link-recent-post-item{
+  font-size: 15px !important;
+  }
+
+}
+body{
+background: #e9eaed;
+font-family: 'Oswald', sans-serif;
+}
+.App{
+  width: 90%;
+  margin: 0 auto;
+
+}

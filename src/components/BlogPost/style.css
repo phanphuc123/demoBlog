@@ -1,0 +1,45 @@
+@media only screen and (min-width: 768px) {
+  .blogpostcontainer{
+    margin: 20px;
+  }
+}
+
+
+.blogpostcontainer{
+  width: 100%;
+}
+
+.blogheader{
+text-align: center;
+}
+.postcategory{
+  display: block;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.posttitle{
+  letter-spacing: .5px;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 0;
+  font-weight: 400;
+}
+.postedby{
+  font-size: 15px;
+  font-style: italic;
+  padding: 10px 0;
+  display: block;
+  color: #6c6c6c;
+}
+.postimagecontainer{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.postimagecontainer img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.postcontent{
+  padding-bottom: 98px;
+}

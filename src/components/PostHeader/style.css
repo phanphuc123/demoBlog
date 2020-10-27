@@ -1,0 +1,98 @@
+@media only screen and (min-width: 768px) {
+  .fa-tags{
+    padding-right: 5px !important;
+  }
+  .fa-folder{
+    padding-right: 13px !important;
+  }
+  .fa-user{
+   padding-left: 20px !important;
+   padding-right: 10px !important;
+  }
+  .fa-comments{
+   padding-left: 20px !important;
+   padding-right: 10px !important;
+  }
+
+  .readmore-border{
+    width: 20% !important;
+    padding: 5px 2px !important;
+   }
+   .readmore-border .read-more{
+    padding: 4px 37px !important;
+    border: 0.5px solid black;
+
+   }
+}
+.post-header{
+  margin: 20px 0;
+}
+
+.post-title{
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #dedede;
+  margin-bottom: 15px;
+}
+
+.post-title-link {
+  transition: all ease 1s;
+  text-decoration: none;
+  color: #333;
+ }
+ .post-title-link:hover{
+  color: #dedede;
+ }
+ .post-tag{
+   display: flex;
+   margin-bottom: 6px;
+ }
+ .tags{
+   text-decoration: none;
+   color: #565673;
+   text-transform: capitalize;
+   padding-right: 20px;
+   opacity: 0.6;
+ }
+ .tags:hover{
+  opacity: 1;
+}
+ .post-category > h3{
+  font-weight: 400;
+  color: #565673;
+  letter-spacing: .5px;
+  font-size: 16px;
+  margin: 0;
+  opacity: 0.6;
+ }
+
+ .fa-calendar{
+  padding: 0 5px;
+ }
+ .number{
+   font-size: 12px;
+ }
+ .fa-tags{
+   padding-right: 3px;
+ }
+ .fa-folder{
+   padding-right: 10px;
+ }
+ .fa-user{
+  padding-left: 5px;
+  padding-right: 5px;
+ }
+ .fa-comments{
+  padding-left: 5px;
+  padding-right: 5px;
+ }
+ .post-text{
+  width: 85%;
+  margin: 20px 0;
+  color: #565673;;
+  text-align: justify;
+  letter-spacing: .3px;
+  line-height: 1.8;
+  opacity: 0.5;
+ }

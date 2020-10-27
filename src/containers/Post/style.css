@@ -1,0 +1,156 @@
+@media only screen and (min-width: 768px) {
+
+  .container-top{
+    display: flex !important;
+    justify-content: space-between !important;
+    margin: 20px 0 !important;
+
+  }
+
+  .title-also-like{
+    width: 15.8% !important;
+    font-size: 18px !important;
+    margin: 10px;
+  }
+  .title-about-post-author{
+
+    width: 16.8% !important;
+    font-size: 18px !important;
+    margin: 10px;
+  }
+
+  .also-like{
+    margin-left: 20px !important;
+    width: 74.5%;
+    background: white !important;
+  }
+
+  .also-like-image{
+    width: 40% !important;
+
+  }
+  .container-also-like{
+    margin: 10px;
+  }
+  .container-image{
+    width: 40% !important;
+  }
+   .title-image{
+     margin-top: 25px !important;
+     font-size: 15px !important;
+   }
+
+
+  .image-author{
+    width: 25% !important;
+    margin: 10px  !important;
+   }
+  .author{
+    width: 60% !important;
+    font-size: 15px !important;
+    margin-top: 5px !important;
+  }
+
+}
+.container-top{
+  display: block;
+
+}
+.title-also-like{
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  width: 27.1%;
+  letter-spacing: .5px;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+
+.also-like{
+  margin: 20px 0;
+  background: white;
+}
+.also-like-image{
+  width: 25%;
+}
+.also-like-image img{
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px ridge #eee;
+}
+.container-image{
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  font-weight: 400;
+ color: #6c6c6c;
+ letter-spacing: 1px;
+ font-size: 14px;
+ margin: 0;
+ transition: all ease 1s;
+}
+
+.container-also-like{
+  display: flex;
+  margin-top: 20px;
+}
+.title-image{
+   opacity: 0.5;
+   font-size: 12px;
+   margin-left: 10px;
+   transition: all ease 1s;
+}
+.title-image:hover{
+  opacity: 1;
+}
+.name-image{
+  padding-left: 5px;
+}
+.title-about-post-author{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  width: 29.3%;
+  letter-spacing: .5px;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.container-author{
+ display: flex;
+}
+.image-author{
+ width: 50%;
+ margin: 0px;
+}
+.image-author img{
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px ridge #eee;
+}
+.author{
+  margin-left: 10px;
+  margin-top: 0px;
+  width: 70%;
+  font-size: 10px;
+  color: #6c6c6c;
+
+}
+.name-author{
+  font-size: 22px;
+  opacity: 0.5;
+  transition: all ease 1s;
+  text-decoration: none;
+  color: #6c6c6c;
+
+}
+.name-author:hover{
+  font-size: 22px;
+  opacity: 1;
+
+}
+.introduce-author{
+  text-align: justify;
+  opacity: 0.5;
+}

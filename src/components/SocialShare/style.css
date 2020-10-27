@@ -1,0 +1,18 @@
+@media only screen and (min-width: 768px) {
+}
+ .social-share{
+  margin: 30px 0px;
+ }
+ .link-social-share > img{
+  max-width: 5%;
+  max-height: 5%;
+  opacity: 0.1;
+  padding-right: 15px;
+  transform: rotateY(360deg);
+  transition: all 3s;
+}
+.link-social-share > img:hover{
+ opacity: 1;
+ transform: rotateY(440deg);
+}
+

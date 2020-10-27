@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+
+  .blog-image-into{
+    width: 100%!important;
+    overflow: hidden !important;
+  }
+
+  .blog-image-into img{
+    max-width: 100% !important;
+    max-height: 100%!important;
+    transform: scale(1.1,1.1);
+    opacity: 1;
+    transition: all ease-in-out 0.8s;
+  }
+  .blog-image-into img:hover{
+    opacity: 0.8;
+    transform: scale(1.2,1.2);
+  }
+
+}
+.blog-image-into{
+  width: 100%;
+  overflow: visible;
+}
+
+

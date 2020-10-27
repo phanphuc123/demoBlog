@@ -1,0 +1,29 @@
+@media only screen and (min-width: 768px) {
+
+  .container_bottom-left{
+    display: flex;
+  }
+  .blog-image{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}
+ .container_bottom-left{
+   width: 100%;
+ }
+ .blog-time{
+   position: relative;
+   width: 10%;
+   font-family: 'Dancing Script', cursive;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+ }
+ .blog-image{
+  width: 100% ;
+  overflow: hidden ;
+  box-sizing: border-box;
+}
+
+
+
